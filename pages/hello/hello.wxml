@@ -1,0 +1,7 @@
+<!--hello.wxml-->
+<view class="container">
+
+  <view class="usermotto">
+    <text class="user-motto">hello world</text>
+  </view>
+</view>
