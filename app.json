@@ -17,13 +17,13 @@
     "selectedColor": "red",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "index"
+      "text": "Index"
     },{
       "pagePath": "pages/logs/logs",
-      "text": "logs"
+      "text": "Logs"
     },{
       "pagePath": "pages/demo/demo",
-      "text": "demo"
+      "text": "Demo"
     }
     ]
   }
