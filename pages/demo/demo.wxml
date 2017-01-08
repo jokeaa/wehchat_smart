@@ -1,3 +1,15 @@
-<view> Hello {{name}} </view>
-<button bindtap="changeName"> Click me </button>
 
+<button bindtap="changeName"> Click me </button>
+<button bindtap="scanCode">Scan </button>
+<button bindtap="picture">pic </button>
+<button bindtap="record">record</button>
+<button bindtap="voice">voice</button>
+<button bindtap="viva"> la vida</button>
+<button bindtap="stopViva"> stop la vida</button>
+<button bindtap="getViva">about la vida</button>
+<view class="container">
+<view class="hello"> Hello {{name}} </view>
+
+<view class="currentIp">{{currentIp}}</view>
+
+</view>

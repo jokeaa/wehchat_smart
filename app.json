@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/demo/demo",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/demo/demo",
     "pages/hello/hello"
   ],
   "window":{
@@ -11,7 +11,6 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"green"
   },
-  "debug":true,
   "tabBar": {
     "borderStyle": "white",
     "selectedColor": "red",
