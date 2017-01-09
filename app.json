@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/controlViva/controlViva",
     "pages/demo/demo",
     "pages/index/index",
     "pages/logs/logs",

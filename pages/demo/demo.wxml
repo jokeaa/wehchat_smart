@@ -7,6 +7,7 @@
 <button bindtap="viva"> la vida</button>
 <button bindtap="stopViva"> stop la vida</button>
 <button bindtap="getViva">about la vida</button>
+<button bindtap="controlViva">control Viva</button>
 <view class="container">
 <view class="hello"> Hello {{name}} </view>
 
