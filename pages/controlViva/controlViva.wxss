@@ -1,1 +1,10 @@
 /* pages/controlViva/controlViva.wxss */
+.viva_slider {
+    width: 80%;
+}
+.viva_duration {
+    float:right;
+    color: gray;
+    font-size: 15px;
+
+}

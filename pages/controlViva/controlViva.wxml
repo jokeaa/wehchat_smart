@@ -1,3 +1,12 @@
 
 
 <button type="primary" bindtap="audioPlay">{{status}}</button>
+<view class="section section_gap" >
+    <view class="viva_duration">{{viva_now}}/{{viva_all}}</view>
+    <view class="viva_slider" >
+        <slider bindchange="seekViva" 
+        value="{{now_value}}"
+        min="{{min_value}}" max="{{max_value}}"/>
+    </view>
+</view>
+<button bindtap="location">location</button>
