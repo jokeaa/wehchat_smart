@@ -18,45 +18,43 @@ Page({
 
     wx.playBackgroundAudio({
 
-                    dataUrl: 'http://qqma.tingge123.com:823/mp3/2015-11-09/1447026796.mp3',
-                    success: function(res){
-                        wx.getBackgroundAudioPlayerState({
-                          success: function(res){
-                            var audio_res = res.duration
-                            switch (res.status){
-                              case 2:break;
-                              default:
-                              wx.seekBackgroundAudio({
-                                position: now_val/100*audio_res,
-                                success: function(res){
-                                  // success
-                                },
-                                fail: function() {
-                                  // fail
-                                },
-                                complete: function() {
-                                  // complete
-                                }
-                              })
-                            }
-                            
-                          },
-                          fail: function() {
-                            // fail
-                          },
-                          complete: function() {
-                            // complete
-                          }
-                        })
-                        
-                    },
-                    fail: function() {
-                      // fail
-                    },
-                    complete: function() {
-                      // complete
-                    }
-                  })
+        dataUrl: 'http://qqma.tingge123.com:823/mp3/2015-11-09/1447026796.mp3',
+        success: function(res){
+            wx.getBackgroundAudioPlayerState({
+              success: function(res){
+                var audio_res = res.duration
+                switch (res.status){
+                  case 2:break;
+                  default:
+                      wx.seekBackgroundAudio({
+                        position: now_val/100*audio_res,
+                        success: function(res){
+                          // success
+                        },
+                        fail: function() {
+                          // fail
+                        },
+                        complete: function() {
+                          // complete
+                        }
+                      })
+                }
+              },
+              fail: function() {
+                // fail
+              },
+              complete: function() {
+                // complete
+              }
+            })
+        },
+        fail: function() {
+          // fail
+        },
+        complete: function() {
+          // complete
+        }
+      })
   },
   location:function(e){
     wx.getLocation({
